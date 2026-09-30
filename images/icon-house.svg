@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Значок прибирання будинків">
+  <path d="M6 22 L24 6 L42 22 L42 42 L6 42 Z" fill="#E3F3F0" stroke="#1F6F63" stroke-width="2"/>
+  <rect x="20" y="28" width="8" height="14" fill="#2F9C8A"/>
+  <rect x="12" y="26" width="7" height="7" fill="#2F9C8A"/>
+  <rect x="29" y="26" width="7" height="7" fill="#2F9C8A"/>
+  <path d="M30 12 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3 Z" fill="#2F9C8A"/>
+</svg>

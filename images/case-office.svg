@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="Кейс прибирання офісу: наведений порядок у робочому просторі">
+  <rect width="400" height="220" fill="#E3F3F0"/>
+  <rect x="30" y="140" width="120" height="50" rx="4" fill="#2F9C8A"/>
+  <rect x="170" y="140" width="120" height="50" rx="4" fill="#2F9C8A"/>
+  <rect x="310" y="140" width="60" height="50" rx="4" fill="#1F6F63"/>
+  <rect x="30" y="60" width="340" height="60" rx="6" fill="#FAF8F4" stroke="#C9BBA3" stroke-width="2"/>
+  <circle cx="60" cy="90" r="8" fill="#2F9C8A"/>
+  <circle cx="90" cy="90" r="8" fill="#1F6F63"/>
+  <path d="M330 40 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 Z" fill="#2F9C8A"/>
+</svg>

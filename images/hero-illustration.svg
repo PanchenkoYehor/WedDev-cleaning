@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 340" role="img" aria-label="Ілюстрація затишної вітальні після прибирання">
+  <rect width="420" height="340" rx="16" fill="#F1E9DD"/>
+  <!-- window -->
+  <rect x="40" y="40" width="130" height="150" rx="6" fill="#E3F3F0" stroke="#2F9C8A" stroke-width="3"/>
+  <line x1="105" y1="40" x2="105" y2="190" stroke="#2F9C8A" stroke-width="3"/>
+  <line x1="40" y1="115" x2="170" y2="115" stroke="#2F9C8A" stroke-width="3"/>
+  <!-- sofa -->
+  <rect x="210" y="150" width="170" height="80" rx="14" fill="#2F9C8A"/>
+  <rect x="210" y="130" width="170" height="40" rx="14" fill="#1F6F63"/>
+  <rect x="200" y="200" width="20" height="40" rx="6" fill="#1F6F63"/>
+  <rect x="380" y="200" width="20" height="40" rx="6" fill="#1F6F63"/>
+  <!-- plant -->
+  <rect x="55" y="250" width="30" height="40" rx="4" fill="#C9BBA3"/>
+  <path d="M70 250 C55 220 55 200 70 180 C85 200 85 220 70 250 Z" fill="#2F9C8A"/>
+  <path d="M70 250 C60 230 60 215 70 200 C80 215 80 230 70 250 Z" fill="#1F6F63"/>
+  <!-- sparkle for clean -->
+  <path d="M320 70 l6 14 14 6 -14 6 -6 14 -6 -14 -14 -6 14 -6 Z" fill="#1F6F63"/>
+  <path d="M150 230 l4 9 9 4 -9 4 -4 9 -4 -9 -9 -4 9 -4 Z" fill="#2F9C8A"/>
+  <!-- floor line -->
+  <line x1="0" y1="290" x2="420" y2="290" stroke="#E3DDD0" stroke-width="2"/>
+</svg>
