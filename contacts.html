@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакти - Клінінг сім'ї Борисенків</title>
+  <meta name="description" content="Зв'яжіться із «Клінінг сім'ї Борисенків»: телефон, Viber, форма зворотного зв'язку та зона обслуговування у Хмельницькому.">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">
+        <img src="images/logo.svg" alt="" width="36" height="36">
+        Клінінг сім'ї Борисенків
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Основна навігація">
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="about.html">Про нас</a></li>
+          <li><a href="services.html">Послуги</a></li>
+          <li><a href="blog.html">Виконані прибирання</a></li>
+          <li><a href="contacts.html" aria-current="page">Контакти</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="phone-link" href="tel:+380971234567">+38 (097) 123-45-67</a>
+        <a class="btn btn-primary" href="contacts.html#form">Замовити дзвінок</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="padding-bottom: 24px;">
+      <div class="container" style="display:block;">
+        <h1>Контакти</h1>
+        <p class="hero-tagline">
+          Найшвидше - зателефонувати або написати у Viber. Або залиште заявку нижче, і ми
+          зателефонуємо самі протягом робочого дня.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container contact-layout">
+
+        <div class="contact-info">
+          <h2>Як з нами зв'язатись</h2>
+          <ul>
+            <li>
+              <strong>Телефон:</strong><br>
+              <a class="phone-link" href="tel:+380971234567">+38 (097) 123-45-67</a>
+            </li>
+            <li>
+              <strong>Viber / Telegram:</strong><br>
+              <a href="viber://chat">Написати у Viber</a> ·
+              <a href="https://t.me/" target="_blank" rel="noopener">Написати у Telegram</a>
+            </li>
+            <li>
+              <strong>Email:</strong><br>
+              <a href="mailto:hello@zatyshok-clining.ua">hello@zatyshok-clining.ua</a>
+            </li>
+            <li>
+              <strong>Графік роботи:</strong><br>
+              Пн–Сб, 8:00–20:00
+            </li>
+          </ul>
+
+          <h3>Зона обслуговування</h3>
+          <p class="map-note">
+            Працюємо у Хмельницькому та найближчих селах громади.
+            Тут буде вбудована карта Google Maps із зоною обслуговування.
+          </p>
+        </div>
+
+        <div class="contact-form">
+          <h2 id="form">Залишити заявку</h2>
+
+          <form action="#" method="post">
+            <div>
+              <label for="name">Ім'я</label>
+              <input type="text" id="name" name="name" required autocomplete="name">
+            </div>
+
+            <div>
+              <label for="phone">Телефон</label>
+              <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="+380 ...">
+            </div>
+
+            <div>
+              <label for="service">Тип об'єкта</label>
+              <select id="service" name="service">
+                <option value="apartment">Квартира</option>
+                <option value="house">Будинок</option>
+                <option value="office">Офіс</option>
+                <option value="other">Інше</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="message">Повідомлення</label>
+              <textarea id="message" name="message" rows="4" placeholder="Площа, бажана дата, побажання"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Надіслати заявку</button>
+            <p class="form-note">
+              Натискаючи «Надіслати», ви погоджуєтесь на обробку персональних даних для зв'язку з вами.
+            </p>
+          </form>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="logo" href="index.html">
+            <img src="images/logo.svg" alt="" width="32" height="32">
+            Клінінг сім'ї Борисенків
+          </a>
+          <div class="social-links">
+            <a href="https://t.me/" target="_blank" rel="noopener">Telegram</a>
+            <a href="viber://chat">Viber</a>
+            <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+          </div>
+        </div>
+
+        <nav aria-label="Навігація у футері">
+          <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="about.html">Про нас</a></li>
+            <li><a href="services.html">Послуги</a></li>
+            <li><a href="blog.html">Виконані прибирання</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        © 2026 Клінінг сім'ї Борисенків. Хмельницький та область.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
