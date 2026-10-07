@@ -214,7 +214,8 @@ textarea:focus-visible {
 }
 
 /* ---------- Sections ---------- */
-section { padding: 48px 0; }
+section,
+.page-block { padding: 48px 0; }
 
 .section-alt {
   background: var(--color-bg-alt);

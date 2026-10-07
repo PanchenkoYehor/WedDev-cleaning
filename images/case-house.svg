@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="Кейс прибирання приватного будинку: чистий будинок із терасою">
+  <rect width="400" height="220" fill="#F1E9DD"/>
+  <rect y="170" width="400" height="50" fill="#E3F3F0"/>
+  <path d="M90 100 L200 28 L310 100 Z" fill="#1F6F63"/>
+  <rect x="105" y="100" width="190" height="80" fill="#FAF8F4" stroke="#C9BBA3" stroke-width="2"/>
+  <rect x="190" y="130" width="30" height="50" rx="3" fill="#2F9C8A"/>
+  <rect x="124" y="118" width="40" height="34" rx="3" fill="#E3F3F0" stroke="#2F9C8A" stroke-width="2"/>
+  <rect x="236" y="118" width="40" height="34" rx="3" fill="#E3F3F0" stroke="#2F9C8A" stroke-width="2"/>
+  <rect x="320" y="150" width="50" height="30" rx="4" fill="#C9BBA3"/>
+  <path d="M345 150 C330 130 330 110 345 92 C360 110 360 130 345 150 Z" fill="#2F9C8A"/>
+  <path d="M60 52 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5 Z" fill="#2F9C8A"/>
+  <path d="M338 40 l4 9 9 4 -9 4 -4 9 -4 -9 -9 -4 9 -4 Z" fill="#1F6F63"/>
+</svg>
