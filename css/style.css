@@ -85,9 +85,16 @@ textarea:focus-visible {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  gap: 16px 32px;
+  max-width: none; /* шапка на всю ширину екрана */
+  padding: 14px clamp(20px, 4vw, 64px);
+}
+
+.logo,
+.main-nav a,
+.phone-link,
+.site-header .btn {
+  white-space: nowrap;
 }
 
 .logo {
@@ -393,7 +400,24 @@ input, textarea, select {
 }
 
 /* ---------- Responsive ---------- */
+@media (max-width: 1180px) {
+  .site-header .container { flex-wrap: wrap; }
+  .main-nav { order: 3; width: 100%; }
+}
+
 @media (max-width: 780px) {
+  .site-header { position: static; } /* висока шапка на телефоні не липне до верху */
+
+  .header-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .site-header .btn {
+    padding: 8px 14px;
+    font-size: 0.92rem;
+  }
+
   .main-nav ul {
     flex-wrap: wrap;
     gap: 10px 16px;
